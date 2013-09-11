@@ -28,11 +28,11 @@ recipes:
 - sprout-osx-settings::set_finder_show_all_hd_on_desktop
 - sambao21_workstation::trackpad_preferences
 - pivotal_workstation::standby-delay
-- sprout-osx-apps::evernote
-- sambao21_workstation::sublime_text
+#- sprout-osx-apps::evernote
+#- sambao21_workstation::sublime_text
 - sambao21_workstation::postgresapp
-- sambao21_workstation::sonos
-- sambao21_workstation::google_voice_and_video
+#- sambao21_workstation::sonos
+#- sambao21_workstation::google_voice_and_video
 - sambao21_workstation::iterm2
 - sprout-osx-apps::pg_admin
 #- sprout-osx-apps::firefox
@@ -42,16 +42,17 @@ recipes:
 #- pivotal_workstation::bettertouchtool
 - sambao21_workstation::bettertouchtool
 #- sprout-osx-apps::dropbox
-- sambao21_workstation::dropbox
+#- sambao21_workstation::dropbox
 #- sprout-osx-apps::sourcetree
-- sambao21_workstation::sourcetree
-- sambao21_workstation::spotify
-- sambao21_workstation::google_drive
-- sambao21_workstation::alfred
-- sambao21_workstation::virtualbox
-- sambao21_workstation::vagrant
-- sambao21_workstation::u_torrent
+#- sambao21_workstation::sourcetree
+#- sambao21_workstation::spotify
+#- sambao21_workstation::google_drive
+#- sambao21_workstation::alfred
+#- sambao21_workstation::virtualbox
+#- sambao21_workstation::vagrant
+#- sambao21_workstation::u_torrent
 - sambao21_workstation::simple_comic
+- sambao21_workstation::$loads_of_apps
 node_attributes:
   versions:
     rvm: stable
