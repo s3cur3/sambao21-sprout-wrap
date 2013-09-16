@@ -63,7 +63,17 @@ echo ""
 echo ""
 echo "You'll need to manually copy the MultiMarkdownQuickLook generator to /Library/QuickLook."
 echo ""
+echo "You'll need to manually copy the HexColorPicker to  /Library/ColorPickers."
+echo ""
+echo "You'll need to manually copy the Sublime Text helper to ~/Library/Application Support/Sublime Text 2/Packages/User/."
+echo ""
 echo "You'll need to manually drop Day-O into the applications folder & launch it."
 
+echo ""
+echo "You'll need to manually install:"
+echo "- Office"
+echo "- iWork"
+echo "- Creative Suite"
+echo "- MacTeX"
 
 
