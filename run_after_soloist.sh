@@ -21,4 +21,7 @@ brew cask install pandoc --force
 brew cask install pycharm --force
 brew cask install sabnzbd --force
 brew cask install vmware-fusion --force
+brew cask install daisy-disk
+
+
 

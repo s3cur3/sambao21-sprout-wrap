@@ -56,8 +56,12 @@ defaults write com.apple.dock no-bouncing -bool TRUE
 # Enable subpixel font rendering on non-Apple LCDs
 defaults write NSGlobalDomain AppleFontSmoothing -int 2
 
+# Make LS work like it should
 echo "alias ls='ls -GpFh'" >> ~/.bash_profile
 echo "" >> ~/.bash_profile
+
+# Add the Auria color profile
+sudo cp Auria_27-2.2-6500.icm /Library/ColorSync/Profiles
 
 echo ""
 echo ""
@@ -68,6 +72,8 @@ echo ""
 echo "You'll need to manually copy the Sublime Text helper to ~/Library/Application Support/Sublime Text 2/Packages/User/."
 echo ""
 echo "You'll need to manually drop Day-O into the applications folder & launch it."
+echo ""
+echo "You'll need to manually confirm that the Auria monitor has the proper color profile."
 
 echo ""
 echo "You'll need to manually install:"
