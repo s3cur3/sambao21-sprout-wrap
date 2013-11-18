@@ -43,4 +43,17 @@ brew cask install daisy-disk
 echo "Installing LESS"
 npm install less
 
+echo "Installing Python 3"
+brew reinstall readline # Something in our config installs this with the wrong links...
+brew install python3
+
+echo "Installing Xcode command line tools"
+xcode-select --install
+
+echo "Installing Mercurial"
+brew install mercurial
+
+echo "Installing Mercurial for Pip"
+pip3 install mercurial
+
 
