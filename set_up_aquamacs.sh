@@ -5,7 +5,8 @@
 #
 #  Created by Tyler Young on 9/12/13.
 #
-cp -R ~/Dropbox/Aquamacs\ Emacs/. ~/Library/Preferences/Aquamacs\ Emacs/
+echo "cp -R aquamacs/. ~/Library/Preferences/Aquamacs\ Emacs/"
+cp -R aquamacs/. ~/Library/Preferences/Aquamacs\ Emacs/
 
 
 
