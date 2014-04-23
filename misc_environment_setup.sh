@@ -27,6 +27,8 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # Automatically illuminate built-in MacBook keyboard in low light
 defaults write com.apple.BezelServices kDim -bool true
 
+# Finder: use the list view
+defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Finder: show status bar
