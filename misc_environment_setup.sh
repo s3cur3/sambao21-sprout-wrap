@@ -81,5 +81,9 @@ echo "- Office"
 echo "- iWork"
 echo "- Creative Suite"
 echo "- MacTeX"
+echo "- TotalTerminal"
+echo "- Dropbox"
+echo "- Chrome"
+echo "- Firefox"
 
 
