@@ -6,7 +6,7 @@
 #  Created by Tyler Young on 9/12/13.
 #
 
-$homebrew_cask="brew cask install"
+alias homebrew_cask="brew cask install"
 homebrew_cask "bettertouchtool"
 homebrew_cask "calibre"
 homebrew_cask "dia"
